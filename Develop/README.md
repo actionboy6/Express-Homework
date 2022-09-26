@@ -1,6 +1,9 @@
 Homework: Express
 
 The front end of this homework has already been created, so it was my responsibility to create the routes for the backend for a notes app.
+What I did was created noteAPIRoutes, newNOTES, noteHTMLRoutes, savedNotes (all in .js), created 3 different routes. Get, Post, Delete. 
+
+
 
 How to install: If you are in VSCode, you will need to open up your integrated terminal and do a "npm i" upon opening said terminal. I believe that it's possible to do this in gitbash, but I don't know, and therefore don't recommend it.
 

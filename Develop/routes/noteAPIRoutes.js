@@ -9,7 +9,7 @@ router.get('/api/notes', (req, res) => {
 
 router.post('/api/notes', (req, res) => {
     console.log(req.body);
-    fs.appendFile('../db/db.json', 'utf-8', (err, data) =>{
+    fs.readFile('../db/db.json', 'utf-8', (err, data) =>{
         res.json(data);
     })
 
